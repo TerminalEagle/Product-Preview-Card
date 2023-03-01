@@ -60,15 +60,16 @@ main {
 .sub-heading {
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-size: 0.8rem;
+  font-size: 0.775rem;
 
   margin-bottom: 1rem;
 }
 
 .product-name {
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
+  letter-spacing: -0.5px;
 
   color: var(--very-dark-blue);
 
@@ -91,7 +92,8 @@ main {
 }
 
 .price-discount {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: -0.5px;
   font-family: "Fraunces", sans-serif;
   font-weight: 700;
 
@@ -109,7 +111,13 @@ main {
 }
 
 .btn--add-to-card {
-  font-size: 1rem;
+  display: flex;
+  place-content: center;
+  gap: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 500;
 
   background-color: var(--dark-cyan);
   color: var(--white);
