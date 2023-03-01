@@ -1,0 +1,19 @@
+:root {
+  /* Primary Colors */
+  --dark-cyan: hsl(158, 36%, 37%); /* Color for the button and price */
+  --cream: hsl(30, 38%, 92%); /* Background color for the entire page */
+
+  --very-dark-blue: hsl(212, 21%, 14%); /* Color for the product name/title */
+  --dark-grayish-blue: hsl(228, 12%, 48%); /* Color disc price, sub-head, prod desc */
+  --white: hsl(0, 0%, 100%); /* Bg color for the prod info section */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
